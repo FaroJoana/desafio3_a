@@ -1,3 +1,8 @@
+
+ //falta hacer opcional el retardo 
+ //falta lograr que las tres llamadas a la funcion dividircadena se haga una detras de la otro y no mesclado
+ //no se como tipar la funcion que ingresa con callback
+
 const fin = (a:number) => console.log(`Proceso terminado , la cantidad de palabras es: ${a}`)
 
 function dividirCadena(cadenaADividir:string,retardo:number,cb) {
@@ -25,6 +30,3 @@ function dividirCadena(cadenaADividir:string,retardo:number,cb) {
  //dividirCadena(cadenaVerso2,250,fin)
  //dividirCadena(cadenaVerso3,500,fin)
 
- //falta hacer opcional el retardo 
- //falta lograr que las tres llamadas a la funcion dividircadena se haga una detras de la otro y no mesclado
- //no se como tipar la funcion que ingresa con callback
